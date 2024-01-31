@@ -55,9 +55,9 @@ NEOLOGD_DIC_NAME=mecab-ipadic-2.7.0-20070801-neologd-${YMD}
 
 if [ ! -e ${BASEDIR}/../build/${ORG_DIC_NAME}.tar.gz ]; then
     DIST_SITE_URL_LIST=()
-    DIST_SITE_URL_LIST[0]="https://ja.osdn.net"
+    DIST_SITE_URL_LIST[0]="https://sourceforge.net"
     DIST_SITE_URL_LIST[1]="https://drive.google.com"
-    DIST_SITE_URL_LIST[2]="https://sourceforge.net"
+    DIST_SITE_URL_LIST[2]="https://ja.osdn.net"
 
     IS_NETWORK_ONLINE=0
     for (( I = 0; I < ${#DIST_SITE_URL_LIST[@]}; ++I ))
